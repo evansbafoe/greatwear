@@ -112,7 +112,7 @@ nav ul li a {
 }
 
 .product-item button {
-    background-color: green;
+    background-color: gray;
     color: black;
     border: none;
     padding: 5px 5px;
@@ -126,7 +126,7 @@ nav ul li a {
     cursor: pointer;
 }
 .product-item button.add-to-favorite {
-    background-color: green;
+    background-color: gray;
     margin-top: 10px;
 }
 .product-item button.add-to-favorite:hover,
@@ -167,12 +167,12 @@ footer {
 
 /* Modal styles */
 .modal {
-    display: none;
+    display: flex;
     position: fixed;
     z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
+    left: 40px;
+    top: 40px;
+    width: 60%;
     height: 100%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
@@ -181,17 +181,17 @@ footer {
 
 .modal-content {
     background-color: white;
-    margin: 15% auto;
+    margin: 0% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     text-align: center;
 }
 
 .modal-content img {
-    width: 100px;
-    height: auto;
+    width: 430px;
+    height: 350px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -206,7 +206,7 @@ footer {
 }
 
 .close {
-    color: #aaa;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -214,8 +214,7 @@ footer {
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: red;
     text-decoration: none;
     cursor: pointer;
 }
-
