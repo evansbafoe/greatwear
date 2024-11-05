@@ -14,11 +14,11 @@ body {
 }
 
 .logo img {
-    height: 50px;
+    height: 30px;
 }
 
 .logo p {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     margin: 0;
 }
@@ -27,7 +27,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: fixed;
     gap: 20px;
 }
 
@@ -61,7 +61,9 @@ nav ul li a {
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    padding:10;
+  border-radius: 45px;
 }
 
 .hero-text {
@@ -93,7 +95,7 @@ nav ul li a {
     border-radius: 15px;
     padding: 25px;
     text-align: center;
-    width:353px;
+    width:325px;
     height:auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -173,19 +175,19 @@ footer {
 
 .modal-content {
     background-color: white;
-    margin: 15% auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     text-align: center;
 }
 
 .modal-content img {
-    width: 100px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 
 .modal-content h3 {
@@ -198,7 +200,7 @@ footer {
 }
 
 .close {
-    color: #aaa;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
